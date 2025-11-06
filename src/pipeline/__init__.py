@@ -4,6 +4,6 @@ Includes both table-based (MySQL) and in-memory (pandas) implementations.
 """
 
 from .memory_pipeline import InMemoryPipeline
-from .table_pipeline import TablePipeline
+from .table_pipeline import TableBasedPipeline
 
-__all__ = ['InMemoryPipeline', 'TablePipeline']
+__all__ = ['InMemoryPipeline', 'TableBasedPipeline']
