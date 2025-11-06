@@ -1,0 +1,828 @@
+{
+  "repeat_customers": {
+    "repeat_customers": [
+      {
+        "customer_id": "CUST-009",
+        "customer_name": "Vikram Singh",
+        "mobile_number": "9495376724",
+        "region": "East",
+        "order_count": 6,
+        "total_spent": 461582.0,
+        "avg_order_value": 76930.33333333333
+      },
+      {
+        "customer_id": "CUST-010",
+        "customer_name": "Kabir Reddy",
+        "mobile_number": "9984969653",
+        "region": "East",
+        "order_count": 4,
+        "total_spent": 257992.0,
+        "avg_order_value": 64498.0
+      },
+      {
+        "customer_id": "CUST-008",
+        "customer_name": "Siddharth Bansal",
+        "mobile_number": "9583503056",
+        "region": "South",
+        "order_count": 4,
+        "total_spent": 254552.0,
+        "avg_order_value": 63638.0
+      },
+      {
+        "customer_id": "CUST-016",
+        "customer_name": "Riya Singh",
+        "mobile_number": "9922782489",
+        "region": "Central",
+        "order_count": 4,
+        "total_spent": 233627.0,
+        "avg_order_value": 58406.75
+      },
+      {
+        "customer_id": "CUST-004",
+        "customer_name": "Arjun Patel",
+        "mobile_number": "9216155940",
+        "region": "North",
+        "order_count": 2,
+        "total_spent": 212726.0,
+        "avg_order_value": 106363.0
+      },
+      {
+        "customer_id": "CUST-002",
+        "customer_name": "Neha Sharma",
+        "mobile_number": "9233890838",
+        "region": "North",
+        "order_count": 6,
+        "total_spent": 188075.0,
+        "avg_order_value": 31345.833333333332
+      },
+      {
+        "customer_id": "CUST-005",
+        "customer_name": "Siddharth Joshi",
+        "mobile_number": "9261849593",
+        "region": "South",
+        "order_count": 5,
+        "total_spent": 152596.0,
+        "avg_order_value": 30519.2
+      },
+      {
+        "customer_id": "CUST-014",
+        "customer_name": "Kavya Rao",
+        "mobile_number": "9425288095",
+        "region": "West",
+        "order_count": 3,
+        "total_spent": 112144.0,
+        "avg_order_value": 37381.333333333336
+      },
+      {
+        "customer_id": "CUST-020",
+        "customer_name": "Arjun Joshi",
+        "mobile_number": "9399737631",
+        "region": "Northeast",
+        "order_count": 4,
+        "total_spent": 95326.0,
+        "avg_order_value": 23831.5
+      },
+      {
+        "customer_id": "CUST-007",
+        "customer_name": "Ananya Shah",
+        "mobile_number": "9634192832",
+        "region": "South",
+        "order_count": 5,
+        "total_spent": 79733.0,
+        "avg_order_value": 15946.6
+      },
+      {
+        "customer_id": "CUST-006",
+        "customer_name": "Rohan Gupta",
+        "mobile_number": "9441316475",
+        "region": "South",
+        "order_count": 6,
+        "total_spent": 71820.0,
+        "avg_order_value": 11970.0
+      },
+      {
+        "customer_id": "CUST-018",
+        "customer_name": "Isha Reddy",
+        "mobile_number": "9250983930",
+        "region": "Northeast",
+        "order_count": 4,
+        "total_spent": 70184.0,
+        "avg_order_value": 17546.0
+      },
+      {
+        "customer_id": "CUST-019",
+        "customer_name": "Rohan Gupta",
+        "mobile_number": "9410518347",
+        "region": "Northeast",
+        "order_count": 5,
+        "total_spent": 61169.0,
+        "avg_order_value": 12233.8
+      },
+      {
+        "customer_id": "CUST-012",
+        "customer_name": "Rahul Bansal",
+        "mobile_number": "9884801845",
+        "region": "West",
+        "order_count": 2,
+        "total_spent": 58958.0,
+        "avg_order_value": 29479.0
+      },
+      {
+        "customer_id": "CUST-013",
+        "customer_name": "Priya Verma",
+        "mobile_number": "9727048281",
+        "region": "West",
+        "order_count": 4,
+        "total_spent": 25250.0,
+        "avg_order_value": 6312.5
+      },
+      {
+        "customer_id": "CUST-003",
+        "customer_name": "Pooja Reddy",
+        "mobile_number": "9894026542",
+        "region": "North",
+        "order_count": 2,
+        "total_spent": 14066.0,
+        "avg_order_value": 7033.0
+      }
+    ],
+    "total_repeat_customers": 16,
+    "total_customers": 20,
+    "repeat_customer_rate": 80.0,
+    "total_orders_by_repeat_customers": 66,
+    "revenue_by_repeat_customers": 2349800.0,
+    "calculation_date": "2025-11-06T19:14:40.448519"
+  },
+  "monthly_trends": {
+    "monthly_trends": [
+      {
+        "period": "2025-07",
+        "year": 2025,
+        "month": 7,
+        "total_orders": 12,
+        "total_revenue": 284526.0,
+        "avg_order_value": 23710.5,
+        "revenue_std": 31562.2397623835,
+        "unique_customers": 10,
+        "revenue_growth_pct": 0.0,
+        "order_growth_pct": 0.0
+      },
+      {
+        "period": "2025-08",
+        "year": 2025,
+        "month": 8,
+        "total_orders": 18,
+        "total_revenue": 748638.0,
+        "avg_order_value": 41591.0,
+        "revenue_std": 61256.3637155117,
+        "unique_customers": 10,
+        "revenue_growth_pct": 163.1176061238692,
+        "order_growth_pct": 50.0
+      },
+      {
+        "period": "2025-09",
+        "year": 2025,
+        "month": 9,
+        "total_orders": 15,
+        "total_revenue": 425377.0,
+        "avg_order_value": 28358.466666666667,
+        "revenue_std": 54870.66296934309,
+        "unique_customers": 13,
+        "revenue_growth_pct": -43.17988133116406,
+        "order_growth_pct": -16.666666666666664
+      },
+      {
+        "period": "2025-10",
+        "year": 2025,
+        "month": 10,
+        "total_orders": 20,
+        "total_revenue": 719043.0,
+        "avg_order_value": 35952.15,
+        "revenue_std": 44062.393407142445,
+        "unique_customers": 11,
+        "revenue_growth_pct": 69.03664278980763,
+        "order_growth_pct": 33.33333333333333
+      },
+      {
+        "period": "2025-11",
+        "year": 2025,
+        "month": 11,
+        "total_orders": 5,
+        "total_revenue": 331427.0,
+        "avg_order_value": 66285.4,
+        "revenue_std": 91061.00762840261,
+        "unique_customers": 5,
+        "revenue_growth_pct": -53.90720721848346,
+        "order_growth_pct": -75.0
+      }
+    ],
+    "trend_summary": {
+      "total_revenue": 2509011.0,
+      "total_orders": 70,
+      "avg_monthly_revenue": 501802.2,
+      "avg_monthly_orders": 14.0,
+      "peak_revenue_month": {
+        "period": "2025-08",
+        "revenue": 748638.0,
+        "orders": 18
+      },
+      "low_revenue_month": {
+        "period": "2025-07",
+        "revenue": 284526.0,
+        "orders": 12
+      },
+      "peak_orders_month": {
+        "period": "2025-10",
+        "revenue": 719043.0,
+        "orders": 20
+      },
+      "low_orders_month": {
+        "period": "2025-11",
+        "revenue": 331427.0,
+        "orders": 5
+      }
+    },
+    "growth_metrics": {
+      "avg_monthly_revenue_growth_pct": 33.76679009100732,
+      "avg_monthly_order_growth_pct": -2.0833333333333357,
+      "revenue_growth_volatility": 102.60460705208537,
+      "order_growth_volatility": 56.262858612580814,
+      "overall_revenue_growth_pct": 16.483906567413875,
+      "overall_order_growth_pct": -58.333333333333336,
+      "revenue_trend_direction": "increasing",
+      "order_trend_direction": "decreasing",
+      "analysis_period": {
+        "start": "2025-07",
+        "end": "2025-11",
+        "months_analyzed": 5
+      }
+    },
+    "total_months": 5,
+    "calculation_date": "2025-11-06T19:14:40.457735"
+  },
+  "regional_revenue": {
+    "regional_revenue": [
+      {
+        "region": "East",
+        "total_orders": 11,
+        "total_revenue": 734666.0,
+        "avg_order_value": 66787.81818181818,
+        "revenue_std": 78118.04789268378,
+        "min_order_value": 1365.0,
+        "max_order_value": 244750.0,
+        "unique_customers": 3,
+        "total_items_sold": 40,
+        "revenue_share_pct": 29.281099206021814,
+        "order_share_pct": 15.714285714285714,
+        "customer_share_pct": 15.0,
+        "revenue_per_customer": 244888.66666666666
+      },
+      {
+        "region": "South",
+        "total_orders": 20,
+        "total_revenue": 558701.0,
+        "avg_order_value": 27935.05,
+        "revenue_std": 40612.76753938218,
+        "min_order_value": 734.0,
+        "max_order_value": 141120.0,
+        "unique_customers": 4,
+        "total_items_sold": 52,
+        "revenue_share_pct": 22.267778020901464,
+        "order_share_pct": 28.57142857142857,
+        "customer_share_pct": 20.0,
+        "revenue_per_customer": 139675.25
+      },
+      {
+        "region": "North",
+        "total_orders": 11,
+        "total_revenue": 426899.0,
+        "avg_order_value": 38809.0,
+        "revenue_std": 63801.01744329788,
+        "min_order_value": 1184.0,
+        "max_order_value": 210210.0,
+        "unique_customers": 4,
+        "total_items_sold": 30,
+        "revenue_share_pct": 17.014632458765625,
+        "order_share_pct": 15.714285714285714,
+        "customer_share_pct": 20.0,
+        "revenue_per_customer": 106724.75
+      },
+      {
+        "region": "Central",
+        "total_orders": 6,
+        "total_revenue": 365714.0,
+        "avg_order_value": 60952.333333333336,
+        "revenue_std": 80133.95709352351,
+        "min_order_value": 2314.0,
+        "max_order_value": 209935.0,
+        "unique_customers": 3,
+        "total_items_sold": 19,
+        "revenue_share_pct": 14.5760221856341,
+        "order_share_pct": 8.571428571428571,
+        "customer_share_pct": 15.0,
+        "revenue_per_customer": 121904.66666666667
+      },
+      {
+        "region": "Northeast",
+        "total_orders": 13,
+        "total_revenue": 226679.0,
+        "avg_order_value": 17436.846153846152,
+        "revenue_std": 19046.56761224164,
+        "min_order_value": 710.0,
+        "max_order_value": 58112.0,
+        "unique_customers": 3,
+        "total_items_sold": 34,
+        "revenue_share_pct": 9.034595703247215,
+        "order_share_pct": 18.571428571428573,
+        "customer_share_pct": 15.0,
+        "revenue_per_customer": 75559.66666666667
+      },
+      {
+        "region": "West",
+        "total_orders": 9,
+        "total_revenue": 196352.0,
+        "avg_order_value": 21816.88888888889,
+        "revenue_std": 20686.041407459066,
+        "min_order_value": 2661.0,
+        "max_order_value": 61975.0,
+        "unique_customers": 3,
+        "total_items_sold": 34,
+        "revenue_share_pct": 7.825872425429781,
+        "order_share_pct": 12.857142857142856,
+        "customer_share_pct": 15.0,
+        "revenue_per_customer": 65450.666666666664
+      }
+    ],
+    "top_regions": {
+      "by_revenue": [
+        {
+          "region": "East",
+          "total_revenue": 734666.0,
+          "revenue_share_pct": 29.281099206021814
+        },
+        {
+          "region": "South",
+          "total_revenue": 558701.0,
+          "revenue_share_pct": 22.267778020901464
+        },
+        {
+          "region": "North",
+          "total_revenue": 426899.0,
+          "revenue_share_pct": 17.014632458765625
+        }
+      ],
+      "by_orders": [
+        {
+          "region": "South",
+          "total_orders": 20,
+          "order_share_pct": 28.57142857142857
+        },
+        {
+          "region": "Northeast",
+          "total_orders": 13,
+          "order_share_pct": 18.571428571428573
+        },
+        {
+          "region": "East",
+          "total_orders": 11,
+          "order_share_pct": 15.714285714285714
+        }
+      ],
+      "by_customers": [
+        {
+          "region": "South",
+          "unique_customers": 4,
+          "customer_share_pct": 20.0
+        },
+        {
+          "region": "North",
+          "unique_customers": 4,
+          "customer_share_pct": 20.0
+        },
+        {
+          "region": "East",
+          "unique_customers": 3,
+          "customer_share_pct": 15.0
+        }
+      ],
+      "by_avg_order_value": [
+        {
+          "region": "East",
+          "avg_order_value": 66787.81818181818,
+          "total_orders": 11
+        },
+        {
+          "region": "Central",
+          "avg_order_value": 60952.333333333336,
+          "total_orders": 6
+        },
+        {
+          "region": "North",
+          "avg_order_value": 38809.0,
+          "total_orders": 11
+        }
+      ]
+    },
+    "regional_metrics": {
+      "revenue_concentration_index": 0.24902381854842393,
+      "diversity_index": 0.9447365882306356,
+      "revenue_gap_ratio": 3.741576352672751,
+      "avg_revenue_per_region": 418168.5,
+      "avg_customers_per_region": 3.3333333333333335,
+      "avg_orders_per_region": 11.666666666666666,
+      "seasonal_patterns": {
+        "region_peak_months": {
+          "Central": {
+            "peak_month": "November",
+            "peak_revenue": 209935.0,
+            "peak_orders": 1
+          },
+          "East": {
+            "peak_month": "October",
+            "peak_revenue": 394969.0,
+            "peak_orders": 6
+          },
+          "North": {
+            "peak_month": "September",
+            "peak_revenue": 217174.0,
+            "peak_orders": 3
+          },
+          "Northeast": {
+            "peak_month": "October",
+            "peak_revenue": 75230.0,
+            "peak_orders": 4
+          },
+          "South": {
+            "peak_month": "August",
+            "peak_revenue": 237275.0,
+            "peak_orders": 5
+          },
+          "West": {
+            "peak_month": "October",
+            "peak_revenue": 82007.0,
+            "peak_orders": 4
+          }
+        },
+        "total_regions_analyzed": 6
+      },
+      "performance_spread": {
+        "max_revenue": 734666.0,
+        "min_revenue": 196352.0,
+        "revenue_std": 204263.8174251622
+      }
+    },
+    "total_regions": 6,
+    "calculation_date": "2025-11-06T19:14:40.466785"
+  },
+  "top_customers": {
+    "top_customers": [
+      {
+        "rank": 1,
+        "customer_id": "CUST-016",
+        "customer_name": "Riya Singh",
+        "mobile_number": "9922782489",
+        "region": "Central",
+        "total_spent": 209935.0,
+        "total_orders": 1,
+        "avg_order_value": 209935.0,
+        "spending_std": 0.0,
+        "total_items": 5,
+        "unique_orders": 1,
+        "days_active": 1,
+        "orders_per_day": 1.0,
+        "spending_per_day": 209935.0,
+        "first_order_date": "2025-11-03T04:39:34",
+        "last_order_date": "2025-11-03T04:39:34"
+      },
+      {
+        "rank": 2,
+        "customer_id": "CUST-010",
+        "customer_name": "Kabir Reddy",
+        "mobile_number": "9984969653",
+        "region": "East",
+        "total_spent": 184660.0,
+        "total_orders": 2,
+        "avg_order_value": 92330.0,
+        "spending_std": 124323.51426821879,
+        "total_items": 8,
+        "unique_orders": 2,
+        "days_active": 3,
+        "orders_per_day": 0.6666666666666666,
+        "spending_per_day": 61553.333333333336,
+        "first_order_date": "2025-10-17T18:38:41",
+        "last_order_date": "2025-10-20T06:09:01"
+      },
+      {
+        "rank": 3,
+        "customer_id": "CUST-009",
+        "customer_name": "Vikram Singh",
+        "mobile_number": "9495376724",
+        "region": "East",
+        "total_spent": 136977.0,
+        "total_orders": 2,
+        "avg_order_value": 68488.5,
+        "spending_std": 26582.265225145882,
+        "total_items": 9,
+        "unique_orders": 2,
+        "days_active": 9,
+        "orders_per_day": 0.2222222222222222,
+        "spending_per_day": 15219.666666666666,
+        "first_order_date": "2025-10-09T09:32:19",
+        "last_order_date": "2025-10-17T10:27:38"
+      },
+      {
+        "rank": 4,
+        "customer_id": "CUST-002",
+        "customer_name": "Neha Sharma",
+        "mobile_number": "9233890838",
+        "region": "North",
+        "total_spent": 104457.0,
+        "total_orders": 1,
+        "avg_order_value": 104457.0,
+        "spending_std": 0.0,
+        "total_items": 3,
+        "unique_orders": 1,
+        "days_active": 1,
+        "orders_per_day": 1.0,
+        "spending_per_day": 104457.0,
+        "first_order_date": "2025-11-01T01:10:24",
+        "last_order_date": "2025-11-01T01:10:24"
+      },
+      {
+        "rank": 5,
+        "customer_id": "CUST-015",
+        "customer_name": "Riya Sharma",
+        "mobile_number": "9254303911",
+        "region": "Central",
+        "total_spent": 91674.0,
+        "total_orders": 1,
+        "avg_order_value": 91674.0,
+        "spending_std": 0.0,
+        "total_items": 3,
+        "unique_orders": 1,
+        "days_active": 1,
+        "orders_per_day": 1.0,
+        "spending_per_day": 91674.0,
+        "first_order_date": "2025-10-26T18:24:30",
+        "last_order_date": "2025-10-26T18:24:30"
+      },
+      {
+        "rank": 6,
+        "customer_id": "CUST-020",
+        "customer_name": "Arjun Joshi",
+        "mobile_number": "9399737631",
+        "region": "Northeast",
+        "total_spent": 70688.0,
+        "total_orders": 2,
+        "avg_order_value": 35344.0,
+        "spending_std": 32198.81438811063,
+        "total_items": 7,
+        "unique_orders": 2,
+        "days_active": 1,
+        "orders_per_day": 2.0,
+        "spending_per_day": 70688.0,
+        "first_order_date": "2025-10-10T16:41:17",
+        "last_order_date": "2025-10-10T18:17:20"
+      },
+      {
+        "rank": 7,
+        "customer_id": "CUST-006",
+        "customer_name": "Rohan Gupta",
+        "mobile_number": "9441316475",
+        "region": "South",
+        "total_spent": 48281.0,
+        "total_orders": 4,
+        "avg_order_value": 12070.25,
+        "spending_std": 17240.986521948216,
+        "total_items": 11,
+        "unique_orders": 4,
+        "days_active": 24,
+        "orders_per_day": 0.16666666666666666,
+        "spending_per_day": 2011.7083333333333,
+        "first_order_date": "2025-10-08T10:13:43",
+        "last_order_date": "2025-11-01T01:05:40"
+      },
+      {
+        "rank": 8,
+        "customer_id": "CUST-012",
+        "customer_name": "Rahul Bansal",
+        "mobile_number": "9884801845",
+        "region": "West",
+        "total_spent": 25906.0,
+        "total_orders": 1,
+        "avg_order_value": 25906.0,
+        "spending_std": 0.0,
+        "total_items": 2,
+        "unique_orders": 1,
+        "days_active": 1,
+        "orders_per_day": 1.0,
+        "spending_per_day": 25906.0,
+        "first_order_date": "2025-10-19T22:33:29",
+        "last_order_date": "2025-10-19T22:33:29"
+      },
+      {
+        "rank": 9,
+        "customer_id": "CUST-007",
+        "customer_name": "Ananya Shah",
+        "mobile_number": "9634192832",
+        "region": "South",
+        "total_spent": 11487.0,
+        "total_orders": 1,
+        "avg_order_value": 11487.0,
+        "spending_std": 0.0,
+        "total_items": 3,
+        "unique_orders": 1,
+        "days_active": 1,
+        "orders_per_day": 1.0,
+        "spending_per_day": 11487.0,
+        "first_order_date": "2025-11-01T11:13:43",
+        "last_order_date": "2025-11-01T11:13:43"
+      },
+      {
+        "rank": 10,
+        "customer_id": "CUST-019",
+        "customer_name": "Rohan Gupta",
+        "mobile_number": "9410518347",
+        "region": "Northeast",
+        "total_spent": 9032.0,
+        "total_orders": 3,
+        "avg_order_value": 3010.6666666666665,
+        "spending_std": 2019.4160872225748,
+        "total_items": 7,
+        "unique_orders": 3,
+        "days_active": 23,
+        "orders_per_day": 0.13043478260869565,
+        "spending_per_day": 392.69565217391306,
+        "first_order_date": "2025-10-12T22:07:49",
+        "last_order_date": "2025-11-04T09:36:43"
+      }
+    ],
+    "spending_summary": {
+      "total_revenue": 906033.0,
+      "total_customers": 12,
+      "total_orders": 20,
+      "avg_revenue_per_customer": 75502.75,
+      "avg_orders_per_customer": 1.6666666666666667,
+      "top_customer": {
+        "customer_name": "Neha Sharma",
+        "total_spent": 104457.0,
+        "total_orders": 1
+      },
+      "spending_distribution": {
+        "min_spending": 5932.0,
+        "max_spending": 209935.0,
+        "median_spending": 59484.5,
+        "p75_spending": 112587.0,
+        "p90_spending": 179891.7,
+        "p95_spending": 196033.74999999997,
+        "std_spending": 71439.01681742904
+      },
+      "revenue_concentration": {
+        "top_10_pct_customers_revenue_share": 23.17078958492682,
+        "customers_in_top_10_pct": 1
+      }
+    },
+    "customer_segments": {
+      "segments": [
+        {
+          "segment": "High Value",
+          "customer_count": 2,
+          "total_revenue": 196131.0,
+          "avg_revenue_per_customer": 98065.5,
+          "avg_orders_per_customer": 1.0,
+          "avg_order_value": 98065.5,
+          "customer_share_pct": 16.666666666666664,
+          "revenue_share_pct": 21.647224769958708
+        },
+        {
+          "segment": "Low Value",
+          "customer_count": 2,
+          "total_revenue": 37393.0,
+          "avg_revenue_per_customer": 18696.5,
+          "avg_orders_per_customer": 1.0,
+          "avg_order_value": 18696.5,
+          "customer_share_pct": 16.666666666666664,
+          "revenue_share_pct": 4.12711236787181
+        },
+        {
+          "segment": "Medium Value",
+          "customer_count": 2,
+          "total_revenue": 118969.0,
+          "avg_revenue_per_customer": 59484.5,
+          "avg_orders_per_customer": 3.0,
+          "avg_order_value": 23707.125,
+          "customer_share_pct": 16.666666666666664,
+          "revenue_share_pct": 13.130757930450656
+        },
+        {
+          "segment": "Minimal",
+          "customer_count": 3,
+          "total_revenue": 21968.0,
+          "avg_revenue_per_customer": 7322.666666666667,
+          "avg_orders_per_customer": 1.6666666666666667,
+          "avg_order_value": 5315.555555555556,
+          "customer_share_pct": 25.0,
+          "revenue_share_pct": 2.4246357472630686
+        },
+        {
+          "segment": "VIP",
+          "customer_count": 3,
+          "total_revenue": 531572.0,
+          "avg_revenue_per_customer": 177190.66666666666,
+          "avg_orders_per_customer": 1.6666666666666667,
+          "avg_order_value": 123584.5,
+          "customer_share_pct": 25.0,
+          "revenue_share_pct": 58.67026918445576
+        }
+      ],
+      "total_segments": 5,
+      "segment_thresholds": {
+        "vip_threshold": 130473.00000000003,
+        "high_value_threshold": 83279.59999999999,
+        "medium_value_threshold": 34856.00000000001,
+        "low_value_threshold": 9523.0
+      },
+      "regional_distribution": [
+        {
+          "region": "Central",
+          "segment": "High Value",
+          "customer_count": 1
+        },
+        {
+          "region": "Central",
+          "segment": "VIP",
+          "customer_count": 1
+        },
+        {
+          "region": "East",
+          "segment": "VIP",
+          "customer_count": 2
+        },
+        {
+          "region": "North",
+          "segment": "High Value",
+          "customer_count": 1
+        },
+        {
+          "region": "Northeast",
+          "segment": "Medium Value",
+          "customer_count": 1
+        },
+        {
+          "region": "Northeast",
+          "segment": "Minimal",
+          "customer_count": 1
+        },
+        {
+          "region": "South",
+          "segment": "Low Value",
+          "customer_count": 1
+        },
+        {
+          "region": "South",
+          "segment": "Medium Value",
+          "customer_count": 1
+        },
+        {
+          "region": "West",
+          "segment": "Low Value",
+          "customer_count": 1
+        },
+        {
+          "region": "West",
+          "segment": "Minimal",
+          "customer_count": 2
+        }
+      ]
+    },
+    "time_period_info": {
+      "days_analyzed": 30,
+      "cutoff_date": "2025-10-07T19:14:40.467227",
+      "analysis_date": "2025-11-06T19:14:40.476223",
+      "total_customers_in_period": 12,
+      "total_orders_in_period": 20,
+      "date_range": {
+        "start": "2025-10-08T10:13:43",
+        "end": "2025-11-04T09:36:43"
+      }
+    },
+    "calculation_date": "2025-11-06T19:14:40.476293"
+  },
+  "pipeline_info": {
+    "pipeline_type": "in_memory",
+    "calculation_date": "2025-11-06T19:14:40.476414",
+    "data_summary": {
+      "total_customers": 20,
+      "total_orders": 70,
+      "total_revenue": 2509011.0,
+      "date_range": {
+        "start": "2025-07-12T05:47:59",
+        "end": "2025-11-04T09:36:43"
+      }
+    },
+    "parameters": {
+      "top_customers_count": 10,
+      "top_spenders_days": 30
+    }
+  }
+}

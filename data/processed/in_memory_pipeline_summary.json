@@ -1,0 +1,35 @@
+{
+  "pipeline_summary": {
+    "pipeline_type": "In-Memory (Pandas)",
+    "calculation_date": "2025-11-06T19:14:40.476414",
+    "processing_status": "SUCCESS",
+    "data_processed": {
+      "customers": 20,
+      "orders": 70,
+      "revenue": 2509011.0
+    }
+  },
+  "key_insights": {
+    "customer_retention": {
+      "repeat_customers": 0,
+      "retention_rate": 0
+    },
+    "business_growth": {
+      "months_analyzed": 5,
+      "growth_trend": "increasing"
+    },
+    "market_distribution": {
+      "regions_covered": 6,
+      "top_region": "East"
+    },
+    "customer_value": {
+      "vip_customers": 1,
+      "high_value_threshold": 130473.00000000003
+    }
+  },
+  "performance_metrics": {
+    "processing_efficiency": "High (In-Memory Operations)",
+    "data_completeness": "100%",
+    "calculation_accuracy": "High (Pandas Precision)"
+  }
+}

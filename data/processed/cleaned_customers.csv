@@ -1,0 +1,21 @@
+customer_id,customer_name,mobile_number,region
+CUST-001,Priya Sharma,9533218196,North
+CUST-002,Neha Sharma,9233890838,North
+CUST-003,Pooja Reddy,9894026542,North
+CUST-004,Arjun Patel,9216155940,North
+CUST-005,Siddharth Joshi,9261849593,South
+CUST-006,Rohan Gupta,9441316475,South
+CUST-007,Ananya Shah,9634192832,South
+CUST-008,Siddharth Bansal,9583503056,South
+CUST-009,Vikram Singh,9495376724,East
+CUST-010,Kabir Reddy,9984969653,East
+CUST-011,Kabir Rao,9810122691,East
+CUST-012,Rahul Bansal,9884801845,West
+CUST-013,Priya Verma,9727048281,West
+CUST-014,Kavya Rao,9425288095,West
+CUST-015,Riya Sharma,9254303911,Central
+CUST-016,Riya Singh,9922782489,Central
+CUST-017,Pooja Jain,9934657871,Central
+CUST-018,Isha Reddy,9250983930,Northeast
+CUST-019,Rohan Gupta,9410518347,Northeast
+CUST-020,Arjun Joshi,9399737631,Northeast

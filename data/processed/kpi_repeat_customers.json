@@ -1,0 +1,154 @@
+{
+  "repeat_customers": [
+    {
+      "customer_id": "CUST-009",
+      "customer_name": "Vikram Singh",
+      "mobile_number": "9495376724",
+      "region": "East",
+      "order_count": 6,
+      "total_spent": 461582.0,
+      "avg_order_value": 76930.33333333333
+    },
+    {
+      "customer_id": "CUST-010",
+      "customer_name": "Kabir Reddy",
+      "mobile_number": "9984969653",
+      "region": "East",
+      "order_count": 4,
+      "total_spent": 257992.0,
+      "avg_order_value": 64498.0
+    },
+    {
+      "customer_id": "CUST-008",
+      "customer_name": "Siddharth Bansal",
+      "mobile_number": "9583503056",
+      "region": "South",
+      "order_count": 4,
+      "total_spent": 254552.0,
+      "avg_order_value": 63638.0
+    },
+    {
+      "customer_id": "CUST-016",
+      "customer_name": "Riya Singh",
+      "mobile_number": "9922782489",
+      "region": "Central",
+      "order_count": 4,
+      "total_spent": 233627.0,
+      "avg_order_value": 58406.75
+    },
+    {
+      "customer_id": "CUST-004",
+      "customer_name": "Arjun Patel",
+      "mobile_number": "9216155940",
+      "region": "North",
+      "order_count": 2,
+      "total_spent": 212726.0,
+      "avg_order_value": 106363.0
+    },
+    {
+      "customer_id": "CUST-002",
+      "customer_name": "Neha Sharma",
+      "mobile_number": "9233890838",
+      "region": "North",
+      "order_count": 6,
+      "total_spent": 188075.0,
+      "avg_order_value": 31345.833333333332
+    },
+    {
+      "customer_id": "CUST-005",
+      "customer_name": "Siddharth Joshi",
+      "mobile_number": "9261849593",
+      "region": "South",
+      "order_count": 5,
+      "total_spent": 152596.0,
+      "avg_order_value": 30519.2
+    },
+    {
+      "customer_id": "CUST-014",
+      "customer_name": "Kavya Rao",
+      "mobile_number": "9425288095",
+      "region": "West",
+      "order_count": 3,
+      "total_spent": 112144.0,
+      "avg_order_value": 37381.333333333336
+    },
+    {
+      "customer_id": "CUST-020",
+      "customer_name": "Arjun Joshi",
+      "mobile_number": "9399737631",
+      "region": "Northeast",
+      "order_count": 4,
+      "total_spent": 95326.0,
+      "avg_order_value": 23831.5
+    },
+    {
+      "customer_id": "CUST-007",
+      "customer_name": "Ananya Shah",
+      "mobile_number": "9634192832",
+      "region": "South",
+      "order_count": 5,
+      "total_spent": 79733.0,
+      "avg_order_value": 15946.6
+    },
+    {
+      "customer_id": "CUST-006",
+      "customer_name": "Rohan Gupta",
+      "mobile_number": "9441316475",
+      "region": "South",
+      "order_count": 6,
+      "total_spent": 71820.0,
+      "avg_order_value": 11970.0
+    },
+    {
+      "customer_id": "CUST-018",
+      "customer_name": "Isha Reddy",
+      "mobile_number": "9250983930",
+      "region": "Northeast",
+      "order_count": 4,
+      "total_spent": 70184.0,
+      "avg_order_value": 17546.0
+    },
+    {
+      "customer_id": "CUST-019",
+      "customer_name": "Rohan Gupta",
+      "mobile_number": "9410518347",
+      "region": "Northeast",
+      "order_count": 5,
+      "total_spent": 61169.0,
+      "avg_order_value": 12233.8
+    },
+    {
+      "customer_id": "CUST-012",
+      "customer_name": "Rahul Bansal",
+      "mobile_number": "9884801845",
+      "region": "West",
+      "order_count": 2,
+      "total_spent": 58958.0,
+      "avg_order_value": 29479.0
+    },
+    {
+      "customer_id": "CUST-013",
+      "customer_name": "Priya Verma",
+      "mobile_number": "9727048281",
+      "region": "West",
+      "order_count": 4,
+      "total_spent": 25250.0,
+      "avg_order_value": 6312.5
+    },
+    {
+      "customer_id": "CUST-003",
+      "customer_name": "Pooja Reddy",
+      "mobile_number": "9894026542",
+      "region": "North",
+      "order_count": 2,
+      "total_spent": 14066.0,
+      "avg_order_value": 7033.0
+    }
+  ],
+  "total_repeat_customers": 16,
+  "total_customers": 20,
+  "repeat_customer_rate": 80.0,
+  "total_orders_by_repeat_customers": 66,
+  "revenue_by_repeat_customers": 2349800.0,
+  "calculation_date": "2025-11-06T19:14:40.448519"
+}

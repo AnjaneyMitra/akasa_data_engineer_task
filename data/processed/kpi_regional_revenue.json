@@ -1,0 +1,214 @@
+{
+  "regional_revenue": [
+    {
+      "region": "East",
+      "total_orders": 11,
+      "total_revenue": 734666.0,
+      "avg_order_value": 66787.81818181818,
+      "revenue_std": 78118.04789268378,
+      "min_order_value": 1365.0,
+      "max_order_value": 244750.0,
+      "unique_customers": 3,
+      "total_items_sold": 40,
+      "revenue_share_pct": 29.281099206021814,
+      "order_share_pct": 15.714285714285714,
+      "customer_share_pct": 15.0,
+      "revenue_per_customer": 244888.66666666666
+    },
+    {
+      "region": "South",
+      "total_orders": 20,
+      "total_revenue": 558701.0,
+      "avg_order_value": 27935.05,
+      "revenue_std": 40612.76753938218,
+      "min_order_value": 734.0,
+      "max_order_value": 141120.0,
+      "unique_customers": 4,
+      "total_items_sold": 52,
+      "revenue_share_pct": 22.267778020901464,
+      "order_share_pct": 28.57142857142857,
+      "customer_share_pct": 20.0,
+      "revenue_per_customer": 139675.25
+    },
+    {
+      "region": "North",
+      "total_orders": 11,
+      "total_revenue": 426899.0,
+      "avg_order_value": 38809.0,
+      "revenue_std": 63801.01744329788,
+      "min_order_value": 1184.0,
+      "max_order_value": 210210.0,
+      "unique_customers": 4,
+      "total_items_sold": 30,
+      "revenue_share_pct": 17.014632458765625,
+      "order_share_pct": 15.714285714285714,
+      "customer_share_pct": 20.0,
+      "revenue_per_customer": 106724.75
+    },
+    {
+      "region": "Central",
+      "total_orders": 6,
+      "total_revenue": 365714.0,
+      "avg_order_value": 60952.333333333336,
+      "revenue_std": 80133.95709352351,
+      "min_order_value": 2314.0,
+      "max_order_value": 209935.0,
+      "unique_customers": 3,
+      "total_items_sold": 19,
+      "revenue_share_pct": 14.5760221856341,
+      "order_share_pct": 8.571428571428571,
+      "customer_share_pct": 15.0,
+      "revenue_per_customer": 121904.66666666667
+    },
+    {
+      "region": "Northeast",
+      "total_orders": 13,
+      "total_revenue": 226679.0,
+      "avg_order_value": 17436.846153846152,
+      "revenue_std": 19046.56761224164,
+      "min_order_value": 710.0,
+      "max_order_value": 58112.0,
+      "unique_customers": 3,
+      "total_items_sold": 34,
+      "revenue_share_pct": 9.034595703247215,
+      "order_share_pct": 18.571428571428573,
+      "customer_share_pct": 15.0,
+      "revenue_per_customer": 75559.66666666667
+    },
+    {
+      "region": "West",
+      "total_orders": 9,
+      "total_revenue": 196352.0,
+      "avg_order_value": 21816.88888888889,
+      "revenue_std": 20686.041407459066,
+      "min_order_value": 2661.0,
+      "max_order_value": 61975.0,
+      "unique_customers": 3,
+      "total_items_sold": 34,
+      "revenue_share_pct": 7.825872425429781,
+      "order_share_pct": 12.857142857142856,
+      "customer_share_pct": 15.0,
+      "revenue_per_customer": 65450.666666666664
+    }
+  ],
+  "top_regions": {
+    "by_revenue": [
+      {
+        "region": "East",
+        "total_revenue": 734666.0,
+        "revenue_share_pct": 29.281099206021814
+      },
+      {
+        "region": "South",
+        "total_revenue": 558701.0,
+        "revenue_share_pct": 22.267778020901464
+      },
+      {
+        "region": "North",
+        "total_revenue": 426899.0,
+        "revenue_share_pct": 17.014632458765625
+      }
+    ],
+    "by_orders": [
+      {
+        "region": "South",
+        "total_orders": 20,
+        "order_share_pct": 28.57142857142857
+      },
+      {
+        "region": "Northeast",
+        "total_orders": 13,
+        "order_share_pct": 18.571428571428573
+      },
+      {
+        "region": "East",
+        "total_orders": 11,
+        "order_share_pct": 15.714285714285714
+      }
+    ],
+    "by_customers": [
+      {
+        "region": "South",
+        "unique_customers": 4,
+        "customer_share_pct": 20.0
+      },
+      {
+        "region": "North",
+        "unique_customers": 4,
+        "customer_share_pct": 20.0
+      },
+      {
+        "region": "East",
+        "unique_customers": 3,
+        "customer_share_pct": 15.0
+      }
+    ],
+    "by_avg_order_value": [
+      {
+        "region": "East",
+        "avg_order_value": 66787.81818181818,
+        "total_orders": 11
+      },
+      {
+        "region": "Central",
+        "avg_order_value": 60952.333333333336,
+        "total_orders": 6
+      },
+      {
+        "region": "North",
+        "avg_order_value": 38809.0,
+        "total_orders": 11
+      }
+    ]
+  },
+  "regional_metrics": {
+    "revenue_concentration_index": 0.24902381854842393,
+    "diversity_index": 0.9447365882306356,
+    "revenue_gap_ratio": 3.741576352672751,
+    "avg_revenue_per_region": 418168.5,
+    "avg_customers_per_region": 3.3333333333333335,
+    "avg_orders_per_region": 11.666666666666666,
+    "seasonal_patterns": {
+      "region_peak_months": {
+        "Central": {
+          "peak_month": "November",
+          "peak_revenue": 209935.0,
+          "peak_orders": 1
+        },
+        "East": {
+          "peak_month": "October",
+          "peak_revenue": 394969.0,
+          "peak_orders": 6
+        },
+        "North": {
+          "peak_month": "September",
+          "peak_revenue": 217174.0,
+          "peak_orders": 3
+        },
+        "Northeast": {
+          "peak_month": "October",
+          "peak_revenue": 75230.0,
+          "peak_orders": 4
+        },
+        "South": {
+          "peak_month": "August",
+          "peak_revenue": 237275.0,
+          "peak_orders": 5
+        },
+        "West": {
+          "peak_month": "October",
+          "peak_revenue": 82007.0,
+          "peak_orders": 4
+        }
+      },
+      "total_regions_analyzed": 6
+    },
+    "performance_spread": {
+      "max_revenue": 734666.0,
+      "min_revenue": 196352.0,
+      "revenue_std": 204263.8174251622
+    }
+  },
+  "total_regions": 6,
+  "calculation_date": "2025-11-06T19:14:40.466785"
+}

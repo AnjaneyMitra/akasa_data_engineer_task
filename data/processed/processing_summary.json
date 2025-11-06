@@ -1,0 +1,68 @@
+{
+  "processing_timestamp": "2025-11-06 13:26:15",
+  "customers": {
+    "total_records": 20,
+    "data_quality": {
+      "total_records": 20,
+      "validation_errors": 0,
+      "region_distribution": {
+        "North": 4,
+        "South": 4,
+        "East": 3,
+        "West": 3,
+        "Central": 3,
+        "Northeast": 3
+      },
+      "duplicate_customer_ids": 0,
+      "duplicate_mobile_numbers": 0,
+      "mobile_number_stats": {
+        "min_length": 10,
+        "max_length": 10,
+        "avg_length": 10.0
+      }
+    }
+  },
+  "orders": {
+    "total_records": 70,
+    "data_quality": {
+      "total_orders": 70,
+      "validation_errors": 0,
+      "date_range": {
+        "min_date": "2025-07-12 05:47:59",
+        "max_date": "2025-11-04 09:36:43",
+        "days_span": 115
+      },
+      "amount_stats": {
+        "min_amount": 710.0,
+        "max_amount": 244750.0,
+        "avg_amount": 35843.014285714286,
+        "total_revenue": 2509011.0
+      },
+      "quantity_stats": {
+        "min_quantity": 1,
+        "max_quantity": 5,
+        "avg_quantity": 2.9857142857142858,
+        "total_items": 209
+      },
+      "sku_analysis": {
+        "unique_skus": 18,
+        "total_sku_instances": 70
+      },
+      "customer_analysis": {
+        "unique_customers": 20,
+        "total_orders": 70,
+        "avg_orders_per_customer": 3.5
+      },
+      "duplicate_order_ids": 0
+    }
+  },
+  "data_quality": {
+    "is_consistent": true,
+    "consistency_issues": [],
+    "customer_order_coverage": {
+      "customers_with_orders": 20,
+      "total_customers": 20,
+      "coverage_percentage": 100.0
+    }
+  }
+}

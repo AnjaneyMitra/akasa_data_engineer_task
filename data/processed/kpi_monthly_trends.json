@@ -1,0 +1,107 @@
+{
+  "monthly_trends": [
+    {
+      "period": "2025-07",
+      "year": 2025,
+      "month": 7,
+      "total_orders": 12,
+      "total_revenue": 284526.0,
+      "avg_order_value": 23710.5,
+      "revenue_std": 31562.2397623835,
+      "unique_customers": 10,
+      "revenue_growth_pct": 0.0,
+      "order_growth_pct": 0.0
+    },
+    {
+      "period": "2025-08",
+      "year": 2025,
+      "month": 8,
+      "total_orders": 18,
+      "total_revenue": 748638.0,
+      "avg_order_value": 41591.0,
+      "revenue_std": 61256.3637155117,
+      "unique_customers": 10,
+      "revenue_growth_pct": 163.1176061238692,
+      "order_growth_pct": 50.0
+    },
+    {
+      "period": "2025-09",
+      "year": 2025,
+      "month": 9,
+      "total_orders": 15,
+      "total_revenue": 425377.0,
+      "avg_order_value": 28358.466666666667,
+      "revenue_std": 54870.66296934309,
+      "unique_customers": 13,
+      "revenue_growth_pct": -43.17988133116406,
+      "order_growth_pct": -16.666666666666664
+    },
+    {
+      "period": "2025-10",
+      "year": 2025,
+      "month": 10,
+      "total_orders": 20,
+      "total_revenue": 719043.0,
+      "avg_order_value": 35952.15,
+      "revenue_std": 44062.393407142445,
+      "unique_customers": 11,
+      "revenue_growth_pct": 69.03664278980763,
+      "order_growth_pct": 33.33333333333333
+    },
+    {
+      "period": "2025-11",
+      "year": 2025,
+      "month": 11,
+      "total_orders": 5,
+      "total_revenue": 331427.0,
+      "avg_order_value": 66285.4,
+      "revenue_std": 91061.00762840261,
+      "unique_customers": 5,
+      "revenue_growth_pct": -53.90720721848346,
+      "order_growth_pct": -75.0
+    }
+  ],
+  "trend_summary": {
+    "total_revenue": 2509011.0,
+    "total_orders": 70,
+    "avg_monthly_revenue": 501802.2,
+    "avg_monthly_orders": 14.0,
+    "peak_revenue_month": {
+      "period": "2025-08",
+      "revenue": 748638.0,
+      "orders": 18
+    },
+    "low_revenue_month": {
+      "period": "2025-07",
+      "revenue": 284526.0,
+      "orders": 12
+    },
+    "peak_orders_month": {
+      "period": "2025-10",
+      "revenue": 719043.0,
+      "orders": 20
+    },
+    "low_orders_month": {
+      "period": "2025-11",
+      "revenue": 331427.0,
+      "orders": 5
+    }
+  },
+  "growth_metrics": {
+    "avg_monthly_revenue_growth_pct": 33.76679009100732,
+    "avg_monthly_order_growth_pct": -2.0833333333333357,
+    "revenue_growth_volatility": 102.60460705208537,
+    "order_growth_volatility": 56.262858612580814,
+    "overall_revenue_growth_pct": 16.483906567413875,
+    "overall_order_growth_pct": -58.333333333333336,
+    "revenue_trend_direction": "increasing",
+    "order_trend_direction": "decreasing",
+    "analysis_period": {
+      "start": "2025-07",
+      "end": "2025-11",
+      "months_analyzed": 5
+    }
+  },
+  "total_months": 5,
+  "calculation_date": "2025-11-06T19:14:40.457735"
+}

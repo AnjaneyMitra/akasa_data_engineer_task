@@ -1,0 +1,46 @@
+{
+  "assessment_date": "2025-11-06T19:14:40.480114",
+  "customer_data_quality": {
+    "total_records": 20,
+    "duplicate_mobile_numbers": 0,
+    "missing_names": 0,
+    "missing_regions": 0,
+    "unique_regions": 6,
+    "region_distribution": {
+      "North": 4,
+      "South": 4,
+      "Central": 3,
+      "East": 3,
+      "Northeast": 3,
+      "West": 3
+    }
+  },
+  "order_data_quality": {
+    "total_records": 70,
+    "duplicate_order_ids": 0,
+    "missing_amounts": 0,
+    "zero_amounts": 0,
+    "negative_amounts": 0,
+    "missing_dates": 0,
+    "date_range": {
+      "earliest": "2025-07-12T05:47:59",
+      "latest": "2025-11-04T09:36:43"
+    },
+    "amount_statistics": {
+      "min": 710.0,
+      "max": 244750.0,
+      "mean": 35843.014285714286,
+      "median": 13371.0
+    }
+  },
+  "relationship_quality": {
+    "orders_without_customers": 0,
+    "customers_without_orders": 0,
+    "data_integrity_score": 100.0
+  },
+  "overall_score": {
+    "score": 100,
+    "grade": "Excellent",
+    "recommendations": []
+  }
+}
