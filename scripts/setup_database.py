@@ -7,14 +7,16 @@ import os
 import sys
 from pathlib import Path
 
-# Add src to path
-sys.path.append(str(Path(__file__).parent.parent / 'src'))
+# Add paths
+project_root = Path(__file__).parent.parent
+sys.path.append(str(project_root / 'src'))
+sys.path.append(str(project_root))
 
 from config.database import db_config
-from database.models import create_tables, validate_schema, get_table_stats
-from database.operations import DatabaseOperations
-from data_processing.data_cleaner import DataCleaner
-from common.logger import setup_logger
+from src.database.models import create_tables, validate_schema, get_table_stats
+from src.database.operations import DatabaseOperations
+from src.data_processing.data_cleaner import DataCleaner
+from src.common.logger import setup_logger
 
 logger = setup_logger(__name__)
 
@@ -133,8 +135,8 @@ def load_initial_data(use_generated_data: bool = True) -> bool:
             return False
         
         # Get processed data
-        customers_df = data_cleaner.get_customers()
-        orders_df = data_cleaner.get_orders()
+        customers_df = data_cleaner.get_customers_dataframe()
+        orders_df = data_cleaner.get_orders_dataframe()
         
         if customers_df is None or orders_df is None:
             logger.error("Processed data is None")
@@ -223,10 +225,13 @@ def main():
     logger.info("=== Akasa Data Engineering Pipeline - Database Setup ===")
     
     # Check environment variables
-    if not db_config.username or not db_config.password:
-        logger.error("Database credentials not found in environment variables")
-        logger.info("Please ensure DB_USERNAME and DB_PASSWORD are set in .env file")
+    if not db_config.username:
+        logger.error("Database username not found in environment variables")
+        logger.info("Please ensure DB_USERNAME is set in .env file")
         return False
+    
+    if db_config.password is None:
+        logger.warning("No password set for database user (using empty password)")
     
     # Setup database
     success = setup_database(load_data=True, use_generated_data=True)
