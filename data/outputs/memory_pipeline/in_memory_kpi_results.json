@@ -151,7 +151,7 @@
     "repeat_customer_rate": 80.0,
     "total_orders_by_repeat_customers": 66,
     "revenue_by_repeat_customers": 2349800.0,
-    "calculation_date": "2025-11-06T21:05:10.858718"
+    "calculation_date": "2025-11-06T21:53:25.418157"
   },
   "monthly_trends": {
     "monthly_trends": [
@@ -258,7 +258,7 @@
       }
     },
     "total_months": 5,
-    "calculation_date": "2025-11-06T21:05:10.870219"
+    "calculation_date": "2025-11-06T21:53:25.428358"
   },
   "regional_revenue": {
     "regional_revenue": [
@@ -472,7 +472,7 @@
       }
     },
     "total_regions": 6,
-    "calculation_date": "2025-11-06T21:05:10.881334"
+    "calculation_date": "2025-11-06T21:53:25.438958"
   },
   "top_customers": {
     "top_customers": [
@@ -797,8 +797,8 @@
     },
     "time_period_info": {
       "days_analyzed": 30,
-      "cutoff_date": "2025-10-07T15:35:10.882016",
-      "analysis_date": "2025-11-06T21:05:10.891894",
+      "cutoff_date": "2025-10-07T16:23:25.439387",
+      "analysis_date": "2025-11-06T21:53:25.448374",
       "total_customers_in_period": 12,
       "total_orders_in_period": 20,
       "date_range": {
@@ -806,11 +806,11 @@
         "end": "2025-11-04T09:36:43"
       }
     },
-    "calculation_date": "2025-11-06T21:05:10.891969"
+    "calculation_date": "2025-11-06T21:53:25.448457"
   },
   "pipeline_info": {
     "pipeline_type": "in_memory",
-    "calculation_date": "2025-11-06T21:05:10.892100",
+    "calculation_date": "2025-11-06T21:53:25.448636",
     "data_summary": {
       "total_customers": 20,
       "total_orders": 70,

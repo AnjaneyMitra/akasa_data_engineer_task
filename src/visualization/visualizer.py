@@ -108,7 +108,7 @@ class DataVisualizer:
             
             # Create visualizations
             fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(16, 12))
-            fig.suptitle(f'Repeat Customers Analysis - {pipeline_type.title()} Pipeline', fontsize=16, fontweight='bold')
+            fig.suptitle('Repeat Customers Analysis', fontsize=16, fontweight='bold')
             
             # 1. Order count distribution
             order_counts = repeat_customers_df['order_count']
@@ -154,7 +154,7 @@ class DataVisualizer:
             ax4.plot(repeat_customers_df['order_count'], p(repeat_customers_df['order_count']), "r--", alpha=0.8)
             
             plt.tight_layout()
-            chart_file = self.charts_dir / f"{pipeline_type}_repeat_customers_analysis.png"
+            chart_file = self.charts_dir / "repeat_customers_analysis.png"
             plt.savefig(chart_file, dpi=300, bbox_inches='tight')
             plt.close()
             files['repeat_customers_chart'] = str(chart_file)
@@ -179,7 +179,7 @@ class DataVisualizer:
             
             # Create visualization
             fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(14, 12))
-            fig.suptitle(f'Monthly Trends Analysis - {pipeline_type.title()} Pipeline', fontsize=16, fontweight='bold')
+            fig.suptitle('Monthly Trends Analysis', fontsize=16, fontweight='bold')
             
             # Convert month to datetime for proper sorting
             trends_df['month_date'] = pd.to_datetime(trends_df['month'] + '-01')
@@ -232,7 +232,7 @@ class DataVisualizer:
             ax3.legend(lines, labels, loc='upper left')
             
             plt.tight_layout()
-            chart_file = self.charts_dir / f"{pipeline_type}_monthly_trends_analysis.png"
+            chart_file = self.charts_dir / "monthly_trends_analysis.png"
             plt.savefig(chart_file, dpi=300, bbox_inches='tight')
             plt.close()
             files['monthly_trends_chart'] = str(chart_file)
@@ -257,7 +257,7 @@ class DataVisualizer:
             
             # Create visualization
             fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(16, 12))
-            fig.suptitle(f'Regional Revenue Analysis - {pipeline_type.title()} Pipeline', fontsize=16, fontweight='bold')
+            fig.suptitle('Regional Revenue Analysis', fontsize=16, fontweight='bold')
             
             regions = regional_df['region'].tolist()
             revenues = regional_df['total_revenue'].tolist()
@@ -317,7 +317,7 @@ class DataVisualizer:
                         f'₹{height:,.0f}', ha='center', va='bottom', fontsize=9)
             
             plt.tight_layout()
-            chart_file = self.charts_dir / f"{pipeline_type}_regional_revenue_analysis.png"
+            chart_file = self.charts_dir / "regional_revenue_analysis.png"
             plt.savefig(chart_file, dpi=300, bbox_inches='tight')
             plt.close()
             files['regional_revenue_chart'] = str(chart_file)
@@ -342,7 +342,7 @@ class DataVisualizer:
             
             # Create visualization
             fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(16, 12))
-            fig.suptitle(f'Top Customers Analysis - {pipeline_type.title()} Pipeline', fontsize=16, fontweight='bold')
+            fig.suptitle('Top Customers Analysis', fontsize=16, fontweight='bold')
             
             # Limit to top 10 for better visibility
             top_10 = top_customers_df.head(10)
@@ -410,7 +410,7 @@ class DataVisualizer:
                         f'₹{height:,.0f}', ha='center', va='bottom', fontsize=8)
             
             plt.tight_layout()
-            chart_file = self.charts_dir / f"{pipeline_type}_top_customers_analysis.png"
+            chart_file = self.charts_dir / "top_customers_analysis.png"
             plt.savefig(chart_file, dpi=300, bbox_inches='tight')
             plt.close()
             files['top_customers_chart'] = str(chart_file)
@@ -426,7 +426,7 @@ class DataVisualizer:
         """Create a summary dashboard with key metrics."""
         try:
             fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(20, 16))
-            fig.suptitle(f'KPI Summary Dashboard - {pipeline_type.title()} Pipeline', fontsize=20, fontweight='bold')
+            fig.suptitle('KPI Summary Dashboard', fontsize=20, fontweight='bold')
             
             # 1. Key metrics summary (text display)
             ax1.axis('off')
@@ -519,7 +519,7 @@ class DataVisualizer:
                             f'₹{height:,.0f}', ha='center', va='bottom', fontsize=10)
             
             plt.tight_layout()
-            dashboard_file = self.charts_dir / f"{pipeline_type}_kpi_dashboard.png"
+            dashboard_file = self.charts_dir / "kpi_dashboard.png"
             plt.savefig(dashboard_file, dpi=300, bbox_inches='tight')
             plt.close()
             

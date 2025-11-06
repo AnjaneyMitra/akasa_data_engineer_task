@@ -97,9 +97,9 @@ data/
 ├── processed/           # Input datasets
 ├── outputs/
 │   ├── memory_pipeline/ # JSON results
-│   ├── table_pipeline/  # JSON results  
-│   ├── charts/         # PNG visualizations
-│   └── csv_exports/    # Business-ready CSV files
+│   └── table_pipeline/  # JSON results  
+├── charts/             # Universal PNG visualizations
+└── csv_exports/        # Pipeline-specific CSV files
 ```
 
 ### Key Metrics
