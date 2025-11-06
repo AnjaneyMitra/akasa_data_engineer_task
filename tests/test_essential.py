@@ -5,6 +5,7 @@ Essential tests demonstrating production-ready data pipeline capabilities.
 
 import pytest
 import sys
+import os
 from pathlib import Path
 import json
 import tempfile
@@ -71,7 +72,7 @@ def test_dual_pipeline_architecture():
     
     assert memory_summary['total_customers'] == table_summary['customers']['total_count']
     assert memory_summary['total_orders'] == table_summary['orders']['total_count']
-    assert table_results['successful_kpis'] == 4
+    assert table_results['pipeline_summary']['kpis_successful'] == 4
     
     print("✅ Dual pipeline architecture validated - consistent results")
 

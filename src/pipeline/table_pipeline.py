@@ -359,7 +359,7 @@ class TableBasedPipeline:
             logger.error(f"KPI pipeline execution failed: {str(e)}")
             return {'error': str(e)}
     
-    def export_results(self, output_file: str = "data/processed/table_kpi_results.json") -> bool:
+    def export_results(self, output_file: str = "data/outputs/table_pipeline/table_kpi_results.json") -> bool:
         """
         Export KPI results to JSON file.
         

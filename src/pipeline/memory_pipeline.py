@@ -209,7 +209,7 @@ class InMemoryPipeline:
         except Exception as e:
             logger.error(f"Failed to log KPI summary: {str(e)}")
     
-    def export_results(self, output_dir: str = "data/processed") -> Dict[str, str]:
+    def export_results(self, output_dir: str = "data/outputs/memory_pipeline") -> Dict[str, str]:
         """
         Export KPI results to files.
         

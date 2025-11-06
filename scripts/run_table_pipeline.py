@@ -143,7 +143,7 @@ def print_pipeline_summary(results: dict):
                 print(f"      {i}. {spender['customer_name']} ({spender['region']}) - ₹{spender['recent_total_spent']:,.0f}")
     
     print("\n" + "="*60)
-    print("Results exported to: data/processed/table_kpi_results.json")
+    print("Results exported to: data/outputs/table_pipeline/table_kpi_results.json")
     print("="*60)
 
 

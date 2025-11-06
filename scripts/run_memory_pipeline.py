@@ -50,7 +50,7 @@ def main():
         
         # Export results
         logger.info("Step 3: Exporting results...")
-        exported_files = pipeline.export_results("data/processed")
+        exported_files = pipeline.export_results("data/outputs/memory_pipeline")
         
         if exported_files:
             logger.info("Results exported successfully:")
