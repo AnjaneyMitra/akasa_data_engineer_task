@@ -26,7 +26,8 @@ class TopCustomersCalculator(BaseKPICalculator):
         """
         super().__init__(customers_df, orders_df)
         self.days = days
-        self.cutoff_date = datetime.now() - timedelta(days=days)
+        # Use UTC for consistent timezone handling
+        self.cutoff_date = datetime.utcnow() - timedelta(days=days)
     
     def calculate(self, top_n: int = 10) -> Dict[str, Any]:
         """
@@ -85,12 +86,9 @@ class TopCustomersCalculator(BaseKPICalculator):
             )
             
             # Convert categorical columns to string to avoid category issues
-            if pd.api.types.is_categorical_dtype(customer_spending['region']):
-                customer_spending['region'] = customer_spending['region'].astype(str)
-            if pd.api.types.is_categorical_dtype(customer_spending['customer_name']):
-                customer_spending['customer_name'] = customer_spending['customer_name'].astype(str)
-            if pd.api.types.is_categorical_dtype(customer_spending['customer_id']):
-                customer_spending['customer_id'] = customer_spending['customer_id'].astype(str)
+            for col in ['region', 'customer_name', 'customer_id']:
+                if col in customer_spending.columns and isinstance(customer_spending[col].dtype, pd.CategoricalDtype):
+                    customer_spending[col] = customer_spending[col].astype(str)
             
             # Calculate additional metrics
             customer_spending['days_active'] = (
