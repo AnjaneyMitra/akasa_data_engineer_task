@@ -517,9 +517,15 @@ akasa_data_engineer/
 │   ├── raw/                    # Original input files
 │   │   ├── task_DE_new_customers.csv
 │   │   └── task_DE_new_orders.xml
-│   └── processed/              # Pipeline outputs
-│       ├── cleaned_*.csv       # Processed data
-│       └── *_kpi_results.json  # KPI calculations
+│   ├── processed/              # Cleaned input datasets
+│   │   ├── cleaned_*.csv       # Processed data ready for analysis
+│   │   └── data_quality_report.json  # Data validation results
+│   └── outputs/                # Pipeline results
+│       ├── memory_pipeline/    # In-memory pipeline outputs
+│       │   ├── in_memory_kpi_results.json
+│       │   └── kpi_*.json      # Individual KPI results
+│       └── table_pipeline/     # Database pipeline outputs
+│           └── table_kpi_results.json
 │
 ├── scripts/                     # Execution scripts
 │   ├── run_memory_pipeline.py  # In-memory execution
@@ -661,6 +667,8 @@ logger.info(f"Memory usage: {memory_usage:.2f} MB")
 For questions, issues, or contributions:
 - **Technical Issues**: Check logs in `logs/pipeline.log`
 - **Data Quality**: Review `data/processed/data_quality_report.json`
+- **Memory Pipeline Results**: Check `data/outputs/memory_pipeline/`
+- **Table Pipeline Results**: Check `data/outputs/table_pipeline/`
 - **Performance**: Monitor execution times in pipeline outputs
 - **Testing**: Run `python tests/run_tests.py` for validation
 

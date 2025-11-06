@@ -63,8 +63,10 @@ Thumbs.db
 
 # Project specific
 logs/
-# Keep data/processed/ for interview reviewers - contains sample datasets
+# Keep data/processed/ for interview reviewers - contains input datasets
 # data/processed/
+# Keep data/outputs/ for interview reviewers - contains pipeline results
+# data/outputs/
 data/temp/
 *.log
 venv/

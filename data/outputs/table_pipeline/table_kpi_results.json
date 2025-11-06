@@ -1,9 +1,9 @@
 {
   "pipeline_summary": {
     "pipeline_type": "table_based",
-    "execution_start_time": "2025-11-06T13:01:42.798250",
-    "execution_end_time": "2025-11-06T13:01:42.841819",
-    "execution_time_seconds": 0.043569,
+    "execution_start_time": "2025-11-06T15:12:52.828015",
+    "execution_end_time": "2025-11-06T15:12:52.874452",
+    "execution_time_seconds": 0.046437,
     "database_summary": {
       "customers": {
         "total_count": 20,
@@ -33,7 +33,7 @@
   "kpi_results": {
     "repeat_customers": {
       "kpi_name": "repeat_customers",
-      "calculation_time": "2025-11-06T13:01:42.834728",
+      "calculation_time": "2025-11-06T15:12:52.865239",
       "total_repeat_customers": 16,
       "total_orders_by_repeat_customers": 66,
       "total_revenue_from_repeat_customers": 2349800.0,
@@ -125,7 +125,7 @@
     },
     "monthly_trends": {
       "kpi_name": "monthly_order_trends",
-      "calculation_time": "2025-11-06T13:01:42.838003",
+      "calculation_time": "2025-11-06T15:12:52.869426",
       "total_months_analyzed": 5,
       "total_orders_all_months": 70,
       "total_revenue_all_months": 2509011.0,
@@ -183,7 +183,7 @@
     },
     "regional_revenue": {
       "kpi_name": "regional_revenue",
-      "calculation_time": "2025-11-06T13:01:42.839348",
+      "calculation_time": "2025-11-06T15:12:52.871537",
       "total_regions": 6,
       "total_revenue_all_regions": 2509011.0,
       "total_customers_all_regions": 20,
@@ -258,7 +258,7 @@
     },
     "top_spenders_30_days": {
       "kpi_name": "top_spenders_last_n_days",
-      "calculation_time": "2025-11-06T13:01:42.841762",
+      "calculation_time": "2025-11-06T15:12:52.874342",
       "analysis_period_days": 30,
       "limit": 10,
       "total_top_spenders": 10,
