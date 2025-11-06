@@ -7,7 +7,8 @@ import pandas as pd
 from typing import Dict, Any, List
 from .base_calculator import BaseKPICalculator
 
-logger = BaseKPICalculator.__dict__.get('logger')
+from src.common.logger import setup_logger
+logger = setup_logger(__name__)
 
 
 class RepeatCustomersCalculator(BaseKPICalculator):
