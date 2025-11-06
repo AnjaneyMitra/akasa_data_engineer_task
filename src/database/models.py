@@ -95,7 +95,7 @@ class Order(Base):
         Index('idx_order_date_amount', 'order_date_time', 'total_amount'),
         Index('idx_order_mobile_date', 'mobile_number', 'order_date_time'),
         Index('idx_order_sku_date', 'sku_id', 'order_date_time'),
-        Index('idx_order_date_desc', 'order_date_time DESC'),  # For recent orders
+        Index('idx_order_date_desc', order_date_time.desc()),  # For recent orders
     )
     
     def __repr__(self):
