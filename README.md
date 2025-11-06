@@ -662,6 +662,32 @@ logger.info(f"Memory usage: {memory_usage:.2f} MB")
 
 ---
 
+## Data Outputs & Visualizations
+
+### Output Structure
+```
+data/
+├── processed/           # Input datasets (cleaned CSV/XML, data quality reports)
+├── outputs/
+│   ├── memory_pipeline/ # Memory pipeline JSON results
+│   ├── table_pipeline/  # Table pipeline JSON results
+│   ├── charts/          # Generated visualization charts (PNG)
+│   └── csv_exports/     # Business-ready CSV files
+```
+
+### Visualization Features
+- **Automated Chart Generation**: Professional business charts for all KPIs
+- **CSV Exports**: Clean, Excel-compatible data files for stakeholder analysis
+- **Dashboard Views**: Summary dashboards with key metrics
+- **Multi-Pipeline Support**: Separate outputs for memory and table approaches
+
+### Available Outputs
+- **Charts**: Repeat customers analysis, monthly trends, regional revenue, top customers
+- **CSV Files**: Detailed customer data, trend analysis, regional breakdowns
+- **Formats**: High-resolution PNG charts (300 DPI) and UTF-8 CSV files
+
+---
+
 ## Support & Contact
 
 For questions, issues, or contributions:

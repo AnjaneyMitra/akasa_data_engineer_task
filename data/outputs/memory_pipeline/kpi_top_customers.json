@@ -321,8 +321,8 @@
   },
   "time_period_info": {
     "days_analyzed": 30,
-    "cutoff_date": "2025-10-07T15:12:36.492008",
-    "analysis_date": "2025-11-06T20:42:36.500433",
+    "cutoff_date": "2025-10-07T15:35:10.882016",
+    "analysis_date": "2025-11-06T21:05:10.891894",
     "total_customers_in_period": 12,
     "total_orders_in_period": 20,
     "date_range": {
@@ -330,5 +330,5 @@
       "end": "2025-11-04T09:36:43"
     }
   },
-  "calculation_date": "2025-11-06T20:42:36.500507"
+  "calculation_date": "2025-11-06T21:05:10.891969"
 }

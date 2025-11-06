@@ -257,6 +257,20 @@ class InMemoryPipeline:
                 json.dump(data_quality_report, f, indent=2, ensure_ascii=False, cls=NumpyEncoder)
             exported_files['data_quality'] = str(quality_file)
             
+            # Create visualizations and CSV exports
+            try:
+                sys.path.append(str(Path(__file__).parent.parent))
+                from visualization.visualizer import create_pipeline_visualizations
+                viz_files = create_pipeline_visualizations(
+                    pipeline_type="memory", 
+                    kpi_data=self.kpi_results,
+                    output_dir=str(output_path.parent.parent)  # data/outputs
+                )
+                exported_files.update(viz_files)
+                logger.info(f"Created {len(viz_files)} visualization and CSV files")
+            except Exception as viz_error:
+                logger.warning(f"Visualization creation failed: {viz_error}")
+            
             logger.info(f"Results exported to {len(exported_files)} files in {output_dir}")
             return exported_files
             

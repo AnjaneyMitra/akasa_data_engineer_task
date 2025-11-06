@@ -382,6 +382,19 @@ class TableBasedPipeline:
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(self.results, f, indent=2, ensure_ascii=False)
             
+            # Create visualizations and CSV exports
+            try:
+                sys.path.append(str(Path(__file__).parent.parent))
+                from visualization.visualizer import create_pipeline_visualizations
+                viz_files = create_pipeline_visualizations(
+                    pipeline_type="table", 
+                    kpi_data=self.results.get('kpi_results', {}),
+                    output_dir=str(output_path.parent.parent)  # data/outputs
+                )
+                logger.info(f"Created {len(viz_files)} visualization and CSV files")
+            except Exception as viz_error:
+                logger.warning(f"Visualization creation failed: {viz_error}")
+            
             logger.info(f"Results exported to: {output_file}")
             return True
             
