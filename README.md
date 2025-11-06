@@ -104,8 +104,8 @@ data/
 
 ### Key Metrics
 - **Repeat Customers**: 16/20 (80% retention rate)
-- **Monthly Trends**: 5 months analyzed with growth rates
-- **Regional Revenue**: 6 regions performance breakdown
-- **Top Customers**: Top 10 by spending (last 30 days)
+- **Monthly Trends**: Peak revenue ₹7.48L (Aug 2025), avg growth 33.8%/month
+- **Regional Revenue**: East leads ₹7.35L (29.3%), South ₹5.59L (22.3%)
+- **Top Customers**: Neha Sharma ₹1.04L, avg customer value ₹75.5K
 
 **Automated visualizations and CSV exports included for stakeholder analysis.**
